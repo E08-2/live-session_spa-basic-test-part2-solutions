@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Change the content of a cell</title>
+
+    <style>
+        label {
+            display: block;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="myTable" border="1">
+        <tr>
+            <td>Row1 cell1</td>
+            <td>Row1 cell2</td>
+        </tr>
+        <tr>
+            <td>Row2 cell1</td>
+            <td>Row2 cell2</td>
+        </tr>
+        <tr>
+            <td>Row3 cell1</td>
+            <td>Row3 cell2</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <div>
+        <label>Row index</label>
+        <input id="row">
+    </div>
+    <div>
+        <label>Column index</label>
+        <input id="col">    
+    </div>
+    <div>
+        <label>New content</label>
+        <input id="content">
+    </div>
+        
+    <br>
+
+    <button>Change content</button>
+    
+    <script src="q10.js"></script>
+</body>
+
+</html>
